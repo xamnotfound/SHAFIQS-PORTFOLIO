@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+    <title>Mohamed Shafiq I - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .profile img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Container for navigation and sections */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navigation bar inside the container */
+        .nav-tabs {
+            display: flex;
+            justify-content: space-around;
+            background: #000000;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .nav-tabs a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        .nav-tabs a:hover {
+            background-color: #ff6600;
+        }
+
+        section {
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        section:hover {
+            background: #d9ebff;
+            transform: scale(1.02);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: #000000;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+        .contact-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .contact-card h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .contact-card p {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+            color: #555;
+        }
+        .contact-card a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+        .social-links ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-links ul li a {
+            text-decoration: none;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #555;
+            transition: color 0.3s;
+        }
+        .social-links ul li a:hover {
+            color: #2c3e50;
+        }
+        .social-links ul li img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        .social-links ul li img:hover {
+            transform: scale(1.1);
+        }
+
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image">
+        </div>
+        <h1>Mohamed Shafiq I</h1>
+        <p>Electronics and Communication Engineering Student</p>
+    </header>
+
+    <!-- Navigation inside the container -->
+    <div class="container">
+        <nav class="nav-tabs">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Mohamed Shafiq I, a 2nd-year Electronics and Communication Engineering student at Sri Krishna College of Technology. I have a strong interest in coding and electronics, especially in the domain of home automation, embedded systems, and IoT applications.</p>
+            <p>Beyond academics, I actively participate in hackathons, technical workshops, and online coding competitions to sharpen my problem-solving abilities.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> C, C++, Python, Java, JavaScript</li>
+                <li><strong>Embedded Systems:</strong> Arduino, ESP32, Raspberry Pi, Microcontrollers</li>
+                <li><strong>Internet of Things (IoT):</strong> IoT Protocols, MQTT, NodeMCU</li>
+                <li><strong>Software Development:</strong> Web Development (HTML, CSS, JavaScript), App Development</li>
+                <li><strong>Electronics:</strong> Digital and Analog Electronics, PCB Designing, Circuit Simulation</li>
+                <li><strong>Networking:</strong> Basics of Computer Networks, Network Protocols</li>
+                <li><strong>Machine Learning:</strong> Fundamentals of AI & ML, TensorFlow Basics</li>
+                <li><strong>Cloud Computing:</strong> Firebase, AWS IoT</li>
+                <li><strong>Soft Skills:</strong> Problem Solving, Teamwork, Communication, Leadership</li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Home Automation using ESP32</h3>
+                <p>Developed a smart home automation system using ESP32, allowing users to control home appliances remotely via a mobile app.</p>
+            </div>
+            <div>
+                <h3>Smart Irrigation System</h3>
+                <p>Designed an automated irrigation system using sensors to monitor soil moisture levels and optimize water usage.</p>
+            </div>
+            <div>
+                <h3>Obstacle Avoiding Robot</h3>
+                <p>Built an autonomous robot using ultrasonic sensors and Arduino to navigate around obstacles.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="contact-card">
+                <h2><u>Contact Me</u></h2>
+                <p><strong>Email:</strong> <a href="mailto:karthichandran08@gmail.com">mohamedshafiq2710@gmail.com</a></p>
+                <p><strong>Phone:</strong> <span style="user-select: all;">+91 7530013517</span></p>
+                <p><strong>Address:</strong> Trichy, Tamil Nadu</p>
+                <div class="social-links">
+                    <h3>Connect with me</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/917530013517" target="_blank">
+                                <i class="fa-brands fa-square-whatsapp"></i> WhatsApp
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/karrx.?igsh=MmlsbWMycWFlaWRk" target="_blank">
+                                <i class="fa-brands fa-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/karthickraj-r-b888b0290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i> LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mohamed Shafiq I. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
